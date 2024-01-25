@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager">
+    <output url="file://$USER_HOME$/production/selenium-project" />
+    <output-test url="file://$USER_HOME$/test/selenium-project" />
     <exclude-output />
     <annotation-paths>
       <root url="file://C:/TestNG" />
@@ -253,7 +255,67 @@
     <content url="jar://C:/Programming tools/Selenium/Selenium2/selenium-java-4.16.1/selenium-support-4.16.1.jar!/">
       <sourceFolder url="jar://C:/Programming tools/Selenium/Selenium2/selenium-java-4.16.1/selenium-support-4.16.1.jar!/" type="java-test-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <content url="jar://C:/Programming tools/Selenium/auto-service-annotations-1.1.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/byte-buddy-1.14.5.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/checker-qual-3.33.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/commons-exec-1.3.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/error_prone_annotations-2.18.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/failsafe-3.3.2.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/failureaccess-1.0.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/guava-32.1.2-jre.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/j2objc-annotations-2.8.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/jsr305-3.0.2.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-api-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-api-events-1.28.0-alpha.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-context-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-exporter-logging-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-extension-incubator-1.28.0-alpha.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-common-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-logs-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-metrics-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-sdk-trace-1.28.0.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/opentelemetry-semconv-1.28.0-alpha.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-api-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-api-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-chrome-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-chrome-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-chromium-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-chromium-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v118-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v118-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v119-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v119-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v120-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v120-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v85-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-devtools-v85-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-edge-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-edge-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-firefox-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-firefox-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-http-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-http-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-ie-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-ie-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-java-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-java-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-json-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-json-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-manager-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-manager-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-os-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-os-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-remote-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-remote-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-safari-driver-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-safari-driver-4.16.1.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-support-4.16.1-sources.jar!/" />
+    <content url="jar://C:/Programming tools/Selenium/selenium-support-4.16.1.jar!/" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
